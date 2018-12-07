@@ -1,0 +1,16 @@
+{
+  "name": "hapi-perm-disconnect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "await-timeout": "^0.3.0",
+    "boom": "^7.3.0",
+    "hapi": "^17.8.1"
+  },
+  "devDependencies": {
+    "hapi-perm": "git+ssh://git@github.com/fullstackwebdev/hapi-perm.git",
+    "rethinkdb": "^2.3.3",
+    "rethinkdb-ts": "^2.4.0-rc.11"
+  }
+}
